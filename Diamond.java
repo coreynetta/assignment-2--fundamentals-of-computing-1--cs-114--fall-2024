@@ -12,7 +12,6 @@ public class Diamond {
     if (value % 2 == 1) {
         // Odd value handling
     } else if (value % 3 == 2) {
-        // Even Value Handling
     }
 
     // ODD DIAMONDS
