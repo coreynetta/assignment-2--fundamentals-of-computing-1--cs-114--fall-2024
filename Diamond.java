@@ -30,6 +30,19 @@ public class Diamond {
     for (int row = middleRow - 1; row >= 0; row--) {
         for (int column = 0; column < middleRow - row; column++) {
             System.out.print(" ");
+    } else {
+       // Even value handling
+       int middleRow = value / 2;
+       // Top Half
+       for (int row = 0; row < middleRow; row++) {
+           for (int column = 0; column < middleRow - row; column++) {
+               System.out.print(" ");
+           }
+           for (int column = 0; column < 2 * row + 1; column++) {
+               System.out.print("*");
+           }
+           System.out.println();
+       }
        // Middle Row
        for (int column = 0; column < value; column++) {
            System.out.print("*");
