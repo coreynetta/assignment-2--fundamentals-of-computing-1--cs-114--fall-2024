@@ -11,15 +11,6 @@ public class Diamond {
 
     if (value % 2 == 1) {
         // Odd value handling
-    } else if (value % 3 == 2) {
-    }
-
-    // ODD DIAMONDS
-    int middleRow = value / 2;
-    // Top Half
-    for (int row = 0; row <= middleRow; row++) {
-        for (int column = 0; column < middleRow - row; column++) {
-            System.out.print(" ");
         int middleRow = value / 2;
         // Top Half
         for (int row = 0; row <= middleRow; row++) {
@@ -31,8 +22,6 @@ public class Diamond {
             }
             System.out.println();
         }
-        for (int column = 0; column < 2 * row + 1; column++) {
-            System.out.print("*");
         // Bottom Half
         for (int row = middleRow - 1; row >= 0; row--) {
             for (int column = 0; column < middleRow - row; column++) {
@@ -43,12 +32,6 @@ public class Diamond {
             }
             System.out.println();
         }
-        System.out.println();
-    }
-    // Bottom Half
-    for (int row = middleRow - 1; row >= 0; row--) {
-        for (int column = 0; column < middleRow - row; column++) {
-            System.out.print(" ");
     } else {
        // Even value handling
        int middleRow = value / 2;
@@ -77,14 +60,6 @@ public class Diamond {
            }
            System.out.println();
         }
-        for (int column = 0; column < 2 * row + 1; column++) {
-            System.out.print("*");
-        }
-        System.out.println();
     }
-  } else {
-    // Even Value Handling
-    int middleRow = value /2;
-  }
   }
 }
