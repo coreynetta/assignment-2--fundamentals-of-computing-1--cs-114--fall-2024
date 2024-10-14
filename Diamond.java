@@ -40,7 +40,7 @@ public class Diamond {
            for (int column = 0; column < middleRow - row; column++) {
                System.out.print(" ");
            }
-           for (int column = 0; column < 2 * row + 1; column++) {
+           for (int column = 0; column < 2 * row + 2; column++) {
                System.out.print("*");
            }
            System.out.println();
@@ -55,7 +55,7 @@ public class Diamond {
            for (int column = 0; column < middleRow - row; column++) {
                System.out.print(" ");
            }
-           for (int column = 0; column < 2 * row + 1; column++) {
+           for (int column = 0; column < 2 * row + 2; column++) {
                System.out.print("*");
            }
            System.out.println();
