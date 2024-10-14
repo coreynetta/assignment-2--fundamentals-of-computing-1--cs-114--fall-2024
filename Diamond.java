@@ -59,7 +59,10 @@ public class Diamond {
                System.out.print("*");
            }
            System.out.println();
+            for (int column = 0; column < initialSpaces - (row * 2); column++) {
+            for (int column = 0; column < initialSpaces - (row * 2); column++) {
         }
+        System.out.println("*");
     }
   }
 }
