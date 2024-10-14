@@ -27,6 +27,15 @@ public class Diamond {
         }
         System.out.println();
     }
+    // Bottom Half
+    for (int row = middleRow - 1; row >= 0; row--) {
+        for (int column = 0; column < middleRow - row; column++) {
+            System.out.print(" ");
+        }
+        for (int column = 0; column < 2 * row + 1; column++) {
+            System.out.print("*");
+        }
+        System.out.println();
     }
   }
 }
