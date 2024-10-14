@@ -36,5 +36,9 @@ public class Diamond {
         }
         System.out.println();
     }
+  } else {
+    // Even Value Handling
+    int middleRow = value /2;
+  }
   }
 }
